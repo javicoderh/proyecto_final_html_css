@@ -1,0 +1,150 @@
+main {
+  /*background-image: url(https://i.pinimg.com/originals/08/3e/26/083e2631f048d7babf425c1be9019771.gif);*/
+background-size:contain;
+height: 55vh;
+width: 100%;
+}
+
+.main__container { 
+  position:absolute;
+  left: 205px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  height: 80vh;
+  width: 100;
+  margin:0;
+  gap: 2%;
+
+  .main__chakra {     
+  border-radius: 50%;
+  text-decoration: none;    
+  }
+  
+  figcaption { 
+  position: relative;
+  right: 13px;
+  transform: scale(1);
+  text-decoration: none;   
+  }
+  }
+
+  .chakra__img {
+  width: 10vw;
+  height: 5vh;
+  border-radius: 50%;
+  border: solid 1px white ;
+  box-shadow: 0px 5px 30px rgb(239, 242, 244);
+  }
+  
+  .contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    right: 117px;
+    border: solid white 2px;
+    border-radius: 5%;
+
+    input {
+      margin: 10px;
+    }
+
+    textarea {
+      resize: none;
+      transform: scale(0.8) 
+    } 
+    
+    button {
+      margin-bottom: 10px;
+    }
+  }
+
+  .wsap {
+    position: relative;
+    right: 120px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+
+    img {
+      position: relative;
+      right: 20px;
+    }
+  }
+
+  .us__img {
+    position: relative;
+    right: 100px;
+  }
+
+  .us__p {
+    position: relative;
+    right: 80px;
+    color: white;
+  }
+
+
+/* alineacion de chakras en fibonacci vertical */
+
+.a {
+  position: absolute;
+  top: 120px;
+  left: -20px;
+  transform: scale(0.7); 
+}
+
+.b {
+  position: absolute;
+  top: 190px;
+  left: -90px;
+  transform: scale(0.8);
+
+  figcaption {
+  right: 20px;
+  }
+}
+
+.c {
+  position: absolute;
+  top: 80px;
+  left: -130px;
+  transform: scale(0.9);
+  figcaption {
+    right: 10px;
+  }
+}
+
+.d {
+  position: absolute;
+  top: -5px;
+  left: -25px;
+  transform: scale(1);
+  figcaption {
+    right: 8px;
+  }
+}
+
+.e {
+  position: absolute;
+  top: 60px;
+  left: 90px;
+  transform: scale(1.1);
+}
+
+.f {
+  position: absolute;
+  top: 210px;
+  left: 115px;
+  transform: scale(1.2);
+  figcaption {
+    right: -2px;
+  }
+}
+
+.g {
+  position: absolute;
+  top: 370px;
+  left: 25px;
+  transform: scale(1.3);
+}

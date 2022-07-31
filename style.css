@@ -1,0 +1,353 @@
+.bgimg {
+  position: absolute;
+  top: 570px;
+  right: 230px;
+  width: 40%;
+  height: 40%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  /*outline: solid 1px purple;*/
+}
+
+body {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  width: 99%;
+  height: 99.6vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  background-color: rgb(187, 73, 183);
+  overflow: hidden;
+  border: solid 3px rgb(60, 4, 77);
+  border-right: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 5%;
+  margin-top: 7%;
+  width: 100vw;
+  height: 20vh;
+  font-size: 1.5rem;
+}
+header .header__tittle {
+  font-size: 1.7rem;
+  font-family: cursive;
+  color: rgb(86, 3, 75);
+  font-weight: 900;
+}
+header .header__slogan {
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 17, 250, 0.03);
+  border-radius: 50%;
+  width: 190px;
+  font-size: 1.4rem;
+  text-decoration: underline;
+  margin-top: 2%;
+  font-weight: 900;
+}
+header .header__p {
+  font-size: 1.09rem;
+  margin-top: 3%;
+  color: rgb(116, 0, 151);
+}
+header .nav__bar {
+  margin-top: 2%;
+  font-size: 1.2rem;
+}
+header .nav__bar .nav__pages {
+  background-color: rgba(0, 17, 250, 0.07);
+  text-decoration: black underline;
+  border-radius: 45%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(109, 113, 114);
+}
+header .nav__bar .nav__pages:hover {
+  color: black;
+  transform: scale(1.5);
+}
+
+main {
+  /*background-image: url(https://i.pinimg.com/originals/08/3e/26/083e2631f048d7babf425c1be9019771.gif);*/
+  background-size: contain;
+  height: 55vh;
+  width: 100%;
+}
+
+.main__container {
+  position: absolute;
+  left: 205px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 80vh;
+  width: 100;
+  margin: 0;
+  gap: 2%;
+}
+.main__container .main__chakra {
+  border-radius: 50%;
+  text-decoration: none;
+}
+.main__container figcaption {
+  position: relative;
+  right: 13px;
+  transform: scale(1);
+  text-decoration: none;
+}
+
+.chakra__img {
+  width: 10vw;
+  height: 5vh;
+  border-radius: 50%;
+  border: solid 1px white;
+  box-shadow: 0px 5px 30px rgb(239, 242, 244);
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  right: 117px;
+  border: solid white 2px;
+  border-radius: 5%;
+}
+.contact input {
+  margin: 10px;
+}
+.contact textarea {
+  resize: none;
+  transform: scale(0.8);
+}
+.contact button {
+  margin-bottom: 10px;
+}
+
+.wsap {
+  position: relative;
+  right: 120px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+}
+.wsap img {
+  position: relative;
+  right: 20px;
+}
+
+.us__img {
+  position: relative;
+  right: 100px;
+}
+
+.us__p {
+  position: relative;
+  right: 80px;
+  color: white;
+}
+
+/* alineacion de chakras en fibonacci vertical */
+.a {
+  position: absolute;
+  top: 120px;
+  left: -20px;
+  transform: scale(0.7);
+}
+
+.b {
+  position: absolute;
+  top: 190px;
+  left: -90px;
+  transform: scale(0.8);
+}
+.b figcaption {
+  right: 20px;
+}
+
+.c {
+  position: absolute;
+  top: 80px;
+  left: -130px;
+  transform: scale(0.9);
+}
+.c figcaption {
+  right: 10px;
+}
+
+.d {
+  position: absolute;
+  top: -5px;
+  left: -25px;
+  transform: scale(1);
+}
+.d figcaption {
+  right: 8px;
+}
+
+.e {
+  position: absolute;
+  top: 60px;
+  left: 90px;
+  transform: scale(1.1);
+}
+
+.f {
+  position: absolute;
+  top: 210px;
+  left: 115px;
+  transform: scale(1.2);
+}
+.f figcaption {
+  right: -2px;
+}
+
+.g {
+  position: absolute;
+  top: 370px;
+  left: 25px;
+  transform: scale(1.3);
+}
+
+footer {
+  position: absolute;
+  top: 770px;
+  left: 20px;
+  width: 90%;
+  background-color: white;
+  height: 1.8px;
+  z-index: -1;
+  box-shadow: 0px 8px 7px rgb(62, 10, 78);
+}
+footer .footer__link {
+  position: relative;
+  left: 130px;
+  text-decoration: none;
+  color: white;
+  top: 10px;
+}
+
+.footer__link:hover {
+  color: goldenrod;
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 818px) {
+  .main__container {
+    position: relative;
+    bottom: 100px;
+    left: 300px;
+  }
+
+  .us__img {
+    position: relative;
+    right: 240px;
+  }
+
+  .us__p {
+    position: relative;
+    right: 240px;
+    color: white;
+  }
+
+  .bgimg {
+    transform: scale(0.8);
+    position: absolute;
+    top: 510px;
+    left: -20px;
+  }
+
+  .footer__link {
+    position: relative;
+    left: 300px !important;
+  }
+
+  .contact {
+    position: relative;
+    top: 100px;
+    right: 200px;
+  }
+
+  .wsap {
+    position: relative;
+    top: 100px;
+    right: 200px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .main__container {
+    position: relative;
+    top: -250px;
+    left: 970px;
+  }
+
+  .chakra__img {
+    width: 10vh;
+    height: 5vw;
+  }
+
+  .us__img {
+    position: relative;
+    right: 1000px;
+    top: 200px;
+  }
+
+  .us__p {
+    position: relative;
+    right: 1000px;
+    top: 250px;
+    color: white;
+  }
+
+  footer {
+    position: relative;
+    top: -100px;
+    left: -80px !important;
+  }
+
+  .bgimg {
+    transform: scale(0.8);
+    position: absolute;
+    top: 445px;
+    left: -20px;
+  }
+
+  .footer__link {
+    position: relative;
+    left: 700px !important;
+  }
+
+  .footer__link:hover {
+    color: goldenrod;
+    text-decoration: underline;
+  }
+
+  .contact {
+    position: relative;
+    top: 100px;
+    right: 800px;
+  }
+
+  .wsap {
+    position: relative;
+    top: 150px;
+    right: 800px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

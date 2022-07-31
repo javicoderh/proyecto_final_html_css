@@ -1,0 +1,19 @@
+* {
+ margin:0;
+ padding: 0;
+ /*outline: solid 1px purple;*/
+}
+body {
+ position: relative;
+ margin: 0;
+ padding: 0;
+ width: 99%;
+ height: 99.6vh;
+ display: flex;
+ flex-direction: column; 
+ align-items: flex-end;
+ background-color: rgb(187, 73, 183);
+ overflow: hidden;
+ border: solid 3px rgb(60, 4, 77);
+ border-right: none; 
+}
